@@ -1,0 +1,140 @@
+/* ====== STYLE GÉNÉRAL ====== */
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== NAVIGATION ====== */
+nav {
+    background-color: #007bff;
+    color: blue;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(9, 23, 231);
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffe082;
+}
+
+/* ====== CONTENEUR PRINCIPAL ====== */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+   
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ====== TITRES ====== */
+h1, h2, h3 {
+    color: #004085;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ====== TABLE ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f7ff;
+}
+
+/* ====== BOUTONS ====== */
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #a71d2a;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #565e64;
+}
+
+/* ====== FORMULAIRES ====== */
+form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.2s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* ====== PIED DE PAGE ====== */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    color: #666;
+    font-size: 14px;
+}
