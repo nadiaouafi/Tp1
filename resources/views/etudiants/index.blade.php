@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h1 class="mb-4">Liste des Étudiants</h1>
+<h1 class="mb-10">Liste des Étudiants</h1>
 
 <a href="{{ route('etudiants.create') }}" class="btn btn-primary mb-3">Ajouter un étudiant</a>
 

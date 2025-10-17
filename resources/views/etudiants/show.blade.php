@@ -3,7 +3,7 @@
 @section('title', 'Détails de l’étudiant')
 
 @section('content')
-<div class="container mt-4">
+<div class="container mt-2">
     <div class="card shadow-sm border-0">
         <div class="card-header bg-primary text-white">
             <h4 class="mb-0">Détails de l’étudiant</h4>

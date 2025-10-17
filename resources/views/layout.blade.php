@@ -25,7 +25,7 @@
         @yield('content')
     </div>
 
-    <footer class="text-center py-4 mt-5 bg-primary text-white">
+    <footer class="text-center py-8 mt-5 bg-primary text-white">
         &copy; {{ date('Y') }} - Maisonneuve
     </footer>
 
